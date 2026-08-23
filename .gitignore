@@ -7,10 +7,10 @@ dist/
 # Vite
 .vite/
 
-# Environment variables
+# Environment variables & secrets
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 # Logs
 *.log
